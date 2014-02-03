@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\LUA">
+      <UniqueIdentifier>{a79f1fa9-ffce-4954-8f06-4a6079424276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TinyXML">
+      <UniqueIdentifier>{1312c744-881d-41b7-b1ad-754d10c7b85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TMR">
+      <UniqueIdentifier>{d18296db-cf4a-40e1-abc1-c2d3e44d1296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TMR">
+      <UniqueIdentifier>{09b8c033-7aef-46a0-af83-9a6045063edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ALX">
+      <UniqueIdentifier>{26ca2026-4563-4aa4-9059-781d6a00bdbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tetris">
+      <UniqueIdentifier>{b28fcfe3-1dc5-485a-a642-ff2b29fd6332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tetris">
+      <UniqueIdentifier>{958e4caa-9ce5-4bfa-aa96-0c5ff28147ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game1">
+      <UniqueIdentifier>{e9b980da-dfa1-44a7-b4b2-d36f145083c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game1">
+      <UniqueIdentifier>{be77ae3e-7f1f-4c88-b76b-856cf9d3c2b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lapi.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lauxlib.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lbaselib.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lcode.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\ldblib.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\ldebug.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\ldo.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\ldump.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lfunc.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lgc.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\linit.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\liolib.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\llex.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lmathlib.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lmem.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\loadlib.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lobject.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lopcodes.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\loslib.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lparser.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lstate.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lstring.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lstrlib.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\ltable.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\ltablib.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\ltm.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lundump.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lvm.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lzio.c">
+      <Filter>Source Files\LUA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\tinyxml\tinystr.cpp">
+      <Filter>Source Files\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\tinyxml\tinyxml.cpp">
+      <Filter>Source Files\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\tinyxml\tinyxmlerror.cpp">
+      <Filter>Source Files\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\tinyxml\tinyxmlparser.cpp">
+      <Filter>Source Files\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TMR\Layer.cpp">
+      <Filter>Source Files\TMR</Filter>
+    </ClCompile>
+    <ClCompile Include="TMR\MapFile.cpp">
+      <Filter>Source Files\TMR</Filter>
+    </ClCompile>
+    <ClCompile Include="TMR\ObjectLayer.cpp">
+      <Filter>Source Files\TMR</Filter>
+    </ClCompile>
+    <ClCompile Include="TMR\TiledLua.cpp">
+      <Filter>Source Files\TMR</Filter>
+    </ClCompile>
+    <ClCompile Include="TMR\TiledObject.cpp">
+      <Filter>Source Files\TMR</Filter>
+    </ClCompile>
+    <ClCompile Include="TMR\Tilelayer.cpp">
+      <Filter>Source Files\TMR</Filter>
+    </ClCompile>
+    <ClCompile Include="TMR\Tileset.cpp">
+      <Filter>Source Files\TMR</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisSrc\Tetris.cpp">
+      <Filter>Source Files\Tetris</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisSrc\TetrisApp.cpp">
+      <Filter>Source Files\Tetris</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisSrc\TetrisBrick.cpp">
+      <Filter>Source Files\Tetris</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisSrc\TetrisController.cpp">
+      <Filter>Source Files\Tetris</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisSrc\TetrisView.cpp">
+      <Filter>Source Files\Tetris</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AnimationBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AssetManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AudioManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BasicAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BitmapAsset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ContactListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DebugDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ErrorLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameMapView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\InputController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Locator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MapParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MultiAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Observable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Physics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PhysicsComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PhysicsView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RenderComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SpellFireball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UIConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TMR\Layer.h">
+      <Filter>Header Files\TMR</Filter>
+    </ClInclude>
+    <ClInclude Include="TMR\LayerTypes.h">
+      <Filter>Header Files\TMR</Filter>
+    </ClInclude>
+    <ClInclude Include="TMR\MapFile.h">
+      <Filter>Header Files\TMR</Filter>
+    </ClInclude>
+    <ClInclude Include="TMR\ObjectLayer.h">
+      <Filter>Header Files\TMR</Filter>
+    </ClInclude>
+    <ClInclude Include="TMR\TiledLua.h">
+      <Filter>Header Files\TMR</Filter>
+    </ClInclude>
+    <ClInclude Include="TMR\TiledObject.h">
+      <Filter>Header Files\TMR</Filter>
+    </ClInclude>
+    <ClInclude Include="TMR\Tilelayer.h">
+      <Filter>Header Files\TMR</Filter>
+    </ClInclude>
+    <ClInclude Include="TMR\Tileset.h">
+      <Filter>Header Files\TMR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Libraries\ALX-master\include\Bitmap.hpp">
+      <Filter>Header Files\ALX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Libraries\ALX-master\include\Shared.hpp">
+      <Filter>Header Files\ALX</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellFireball.h">
+      <Filter>Header Files\Game1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Libraries\ALX-master\include\Sample.hpp">
+      <Filter>Header Files\ALX</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisSrc\Tetris.h">
+      <Filter>Header Files\Tetris</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisSrc\TetrisApp.h">
+      <Filter>Header Files\Tetris</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisSrc\TetrisBrick.h">
+      <Filter>Header Files\Tetris</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisSrc\TetrisController.h">
+      <Filter>Header Files\Tetris</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisSrc\TetrisPieces.h">
+      <Filter>Header Files\Tetris</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisSrc\TetrisView.h">
+      <Filter>Header Files\Tetris</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AnimationBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Asset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AssetManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AudioComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AudioManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BasicAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BitmapAsset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ContactListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DebugDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ErrorLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameMapView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\InputController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Locator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\LuabindExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MapParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MultiAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Observable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Observer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Physics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PhysicsComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PhysicsService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PhysicsView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Rectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\RenderComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\RenderService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SpellFireball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Vengine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{236D3D25-101B-4A16-A577-1A38AC6270AD}</ProjectGuid>
+    <RootNamespace>Nature</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\allegro-5.0.10-msvc-11.0\include;C:\Libraries\tinyxml;C:\Libraries\Box2D_v2.2.1;C:\Libraries\lua-5.1.5\lua;C:\Libraries\boost_1_55_0;C:\Libraries\ALX-master\include;C:\Users\Andre\Documents\Visual Studio 2012\Projects\Nature\Nature\Src;C:\Users\Andre\Documents\Visual Studio 2012\Projects\Nature\Nature\TetrisSrc;C:\Users\Andre\Documents\Visual Studio 2012\Projects\Nature\Nature;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\allegro-5.0.10-msvc-11.0\lib;C:\Libraries\PhysFS\PhysFS-2.0.3MSVC2012 Binaries\Debug;C:\Libraries\Box2D_v2.2.1\Build\vs2012\bin\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>allegro-5.0.10-monolith-md-debug.lib;Box2D.lib;physfs.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:\allegro-5.0.10-msvc-11.0\include;C:\Libraries\tinyxml;C:\Libraries\Box2D_v2.2.1;C:\Libraries\lua-5.1.5\lua;C:\Libraries\boost_1_55_0;C:\Libraries\ALX-master\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\allegro-5.0.10-msvc-11.0\lib;C:\Libraries\PhysFS\PhysFS-2.0.3MSVC2012 Binaries\Release;C:\Libraries\Box2D_v2.2.1\Build\vs2012\bin\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>allegro-5.0.10-monolith-md.lib;Box2D.lib;physfs.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lapi.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lauxlib.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lbaselib.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lcode.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\ldblib.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\ldebug.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\ldo.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\ldump.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lfunc.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lgc.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\linit.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\liolib.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\llex.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lmathlib.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lmem.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\loadlib.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lobject.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lopcodes.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\loslib.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lparser.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lstate.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lstring.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lstrlib.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\ltable.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\ltablib.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\ltm.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lundump.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lvm.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\lua-5.1.5\lua\lzio.c" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\Libraries\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="Src\Animation.cpp" />
+    <ClCompile Include="Src\AnimationBase.cpp" />
+    <ClCompile Include="Src\AssetManager.cpp" />
+    <ClCompile Include="Src\AudioManager.cpp" />
+    <ClCompile Include="Src\BasicAnimation.cpp" />
+    <ClCompile Include="Src\BitmapAsset.cpp" />
+    <ClCompile Include="Src\Camera.cpp" />
+    <ClCompile Include="Src\ContactListener.cpp" />
+    <ClCompile Include="Src\Debug.cpp" />
+    <ClCompile Include="Src\DebugDraw.cpp" />
+    <ClCompile Include="Src\Draw.cpp" />
+    <ClCompile Include="Src\Engine.cpp" />
+    <ClCompile Include="Src\Entity.cpp" />
+    <ClCompile Include="Src\ErrorLogger.cpp" />
+    <ClCompile Include="Src\GameMap.cpp" />
+    <ClCompile Include="Src\GameMapView.cpp" />
+    <ClCompile Include="Src\InputController.cpp" />
+    <ClCompile Include="Src\InputManager.cpp" />
+    <ClCompile Include="Src\Locator.cpp" />
+    <ClCompile Include="Src\main.cpp" />
+    <ClCompile Include="Src\MapParser.cpp" />
+    <ClCompile Include="Src\MultiAnimation.cpp" />
+    <ClCompile Include="Src\Observable.cpp" />
+    <ClCompile Include="Src\Physics.cpp" />
+    <ClCompile Include="Src\PhysicsComponent.cpp" />
+    <ClCompile Include="Src\PhysicsView.cpp" />
+    <ClCompile Include="Src\Process.cpp" />
+    <ClCompile Include="Src\Render.cpp" />
+    <ClCompile Include="Src\RenderComponent.cpp" />
+    <ClCompile Include="Src\SpellFireball.cpp" />
+    <ClCompile Include="Src\UIConsole.cpp" />
+    <ClCompile Include="Src\Utility.cpp" />
+    <ClCompile Include="Src\View.cpp" />
+    <ClCompile Include="TetrisSrc\Tetris.cpp" />
+    <ClCompile Include="TetrisSrc\TetrisApp.cpp" />
+    <ClCompile Include="TetrisSrc\TetrisBrick.cpp" />
+    <ClCompile Include="TetrisSrc\TetrisController.cpp" />
+    <ClCompile Include="TetrisSrc\TetrisView.cpp" />
+    <ClCompile Include="TMR\Layer.cpp" />
+    <ClCompile Include="TMR\MapFile.cpp" />
+    <ClCompile Include="TMR\ObjectLayer.cpp" />
+    <ClCompile Include="TMR\TiledLua.cpp" />
+    <ClCompile Include="TMR\TiledObject.cpp" />
+    <ClCompile Include="TMR\Tilelayer.cpp" />
+    <ClCompile Include="TMR\Tileset.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\..\Libraries\ALX-master\include\Bitmap.hpp" />
+    <ClInclude Include="..\..\..\..\..\..\..\Libraries\ALX-master\include\Sample.hpp" />
+    <ClInclude Include="..\..\..\..\..\..\..\Libraries\ALX-master\include\Shared.hpp" />
+    <ClInclude Include="SpellFireball.h" />
+    <ClInclude Include="Src\Animation.h" />
+    <ClInclude Include="Src\AnimationBase.h" />
+    <ClInclude Include="Src\Asset.h" />
+    <ClInclude Include="Src\AssetManager.h" />
+    <ClInclude Include="Src\AudioComponent.h" />
+    <ClInclude Include="Src\AudioManager.h" />
+    <ClInclude Include="Src\BasicAnimation.h" />
+    <ClInclude Include="Src\BitmapAsset.h" />
+    <ClInclude Include="Src\Camera.h" />
+    <ClInclude Include="Src\Common.h" />
+    <ClInclude Include="Src\Component.h" />
+    <ClInclude Include="Src\ContactListener.h" />
+    <ClInclude Include="Src\Debug.h" />
+    <ClInclude Include="Src\DebugDraw.h" />
+    <ClInclude Include="Src\Draw.h" />
+    <ClInclude Include="Src\Engine.h" />
+    <ClInclude Include="Src\Entity.h" />
+    <ClInclude Include="Src\ErrorLogger.h" />
+    <ClInclude Include="Src\Event.h" />
+    <ClInclude Include="Src\GameManager.h" />
+    <ClInclude Include="Src\GameMap.h" />
+    <ClInclude Include="Src\GameMapView.h" />
+    <ClInclude Include="Src\InputController.h" />
+    <ClInclude Include="Src\InputManager.h" />
+    <ClInclude Include="Src\Locator.h" />
+    <ClInclude Include="Src\LuabindExport.h" />
+    <ClInclude Include="Src\MapParser.h" />
+    <ClInclude Include="Src\MultiAnimation.h" />
+    <ClInclude Include="Src\Observable.h" />
+    <ClInclude Include="Src\Observer.h" />
+    <ClInclude Include="Src\Physics.h" />
+    <ClInclude Include="Src\PhysicsComponent.h" />
+    <ClInclude Include="Src\PhysicsService.h" />
+    <ClInclude Include="Src\PhysicsView.h" />
+    <ClInclude Include="Src\Process.h" />
+    <ClInclude Include="Src\Rectangle.h" />
+    <ClInclude Include="Src\Render.h" />
+    <ClInclude Include="Src\RenderComponent.h" />
+    <ClInclude Include="Src\RenderService.h" />
+    <ClInclude Include="Src\SpellFireball.h" />
+    <ClInclude Include="Src\Utility.h" />
+    <ClInclude Include="Src\Vengine.h" />
+    <ClInclude Include="Src\View.h" />
+    <ClInclude Include="TetrisSrc\Tetris.h" />
+    <ClInclude Include="TetrisSrc\TetrisApp.h" />
+    <ClInclude Include="TetrisSrc\TetrisBrick.h" />
+    <ClInclude Include="TetrisSrc\TetrisController.h" />
+    <ClInclude Include="TetrisSrc\TetrisPieces.h" />
+    <ClInclude Include="TetrisSrc\TetrisView.h" />
+    <ClInclude Include="TMR\Layer.h" />
+    <ClInclude Include="TMR\LayerTypes.h" />
+    <ClInclude Include="TMR\MapFile.h" />
+    <ClInclude Include="TMR\ObjectLayer.h" />
+    <ClInclude Include="TMR\TiledLua.h" />
+    <ClInclude Include="TMR\TiledObject.h" />
+    <ClInclude Include="TMR\Tilelayer.h" />
+    <ClInclude Include="TMR\Tileset.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
